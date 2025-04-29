@@ -7,6 +7,7 @@
     packages = [
       pkgs.git
       pkgs.neovim
+      pkgs.solc
     ];
   };
 
