@@ -4,6 +4,14 @@
     stateVersion = "23.11";
     username = "scott";
     homeDirectory = "/Users/scott";
+
+    file.".config" = {
+      source = ./config;
+      recursive = true;
+    };
+    file.".zshrc" = {source = ./.zshrc;};
+    file.".aerospace.toml" = {source = ./.aerospace.toml;};
+
     packages = [
       pkgs.git
       pkgs.neovim
