@@ -8,6 +8,7 @@
       pkgs.git
       pkgs.neovim
       pkgs.solc
+      pkgs.go_1_24
     ];
   };
 
