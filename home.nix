@@ -15,6 +15,7 @@
     };
     file.".zshrc" = {source = ./.zshrc;};
     file.".aerospace.toml" = {source = ./.aerospace.toml;};
+    file.".tmux.conf" = {source = ./.tmux.conf;};
 
     packages = [
       pkgs.git
