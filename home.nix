@@ -9,6 +9,10 @@
       source = ./config;
       recursive = true;
     };
+    file.".zsh" = {
+      source = ./.zsh;
+      recursive = true;
+    };
     file.".zshrc" = {source = ./.zshrc;};
     file.".aerospace.toml" = {source = ./.aerospace.toml;};
 
