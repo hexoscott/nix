@@ -68,7 +68,3 @@ alias cdi=zi
 
 # replace cat with bat
 alias cat=bat
-
-# gvm useful bits
-alias go120="gvm use go1.20 --default"
-alias go123="gvm use go1.23 --default"
