@@ -117,6 +117,7 @@ export PATH="$PATH:/Users/scott/.dotnet/tools"
 
 # gopath
 export GOPATH=$HOME/go
+export GOROOT=$HOME/go
 export PATH="$PATH:/Users/scott/go/bin"
 
 # generic path binaries
