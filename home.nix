@@ -22,6 +22,7 @@
       pkgs.neovim
       pkgs.solc
       pkgs.go_1_23
+      pkgs.tmux
     ];
   };
 
