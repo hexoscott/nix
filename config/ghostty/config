@@ -46,13 +46,13 @@ theme = catppuccin-frappe
 # custom-shader = /Users/scott/src/hackr-sh/ghostty-shaders/gradient-background.glsl
 
 # split management
-keybind = ctrl+s>r=new_split:right
-keybind = ctrl+s>v=new_split:down
-keybind = ctrl+s>e=equalize_splits
-keybind = ctrl+s>x=close_surface
+keybind = ctrl+a>r=new_split:right
+keybind = ctrl+a>v=new_split:down
+keybind = ctrl+a>e=equalize_splits
+keybind = ctrl+a>x=close_surface
 
 # split nav
-keybind = ctrl+s>h=goto_split:left
-keybind = ctrl+s>j=goto_split:down
-keybind = ctrl+s>k=goto_split:up
-keybind = ctrl+s>l=goto_split:right
+keybind = ctrl+a>h=goto_split:left
+keybind = ctrl+a>j=goto_split:down
+keybind = ctrl+a>k=goto_split:up
+keybind = ctrl+a>l=goto_split:right
