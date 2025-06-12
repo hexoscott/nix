@@ -117,6 +117,7 @@ export PATH="$PATH:/Users/scott/.dotnet/tools"
 
 # gopath
 export GOPATH=$HOME/go
+export PATH="$PATH:$HOME/go"
 
 # generic path binaries
 export PATH="$PATH:/Users/scott/bin"
@@ -131,7 +132,7 @@ alias vim=nvim
 
 
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
 
 
 # >>> conda initialize >>>
