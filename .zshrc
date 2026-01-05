@@ -177,3 +177,6 @@ export PATH="$PATH:/Users/scott/.nix-profile/bin"
 
 # enable starship
 eval "$(starship init zsh)"
+
+# recommended by cursor cli but not sure if this should already be in path
+export PATH="$HOME/.local/bin:$PATH"
