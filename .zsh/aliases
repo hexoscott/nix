@@ -68,3 +68,7 @@ alias cdi=zi
 
 # replace cat with bat
 alias cat=bat
+
+# AI stuff
+alias cc=claude
+alias cx=codex
