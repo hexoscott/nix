@@ -176,3 +176,7 @@ eval "$(starship init zsh)"
 
 # recommended by cursor cli but not sure if this should already be in path
 export PATH="$HOME/.local/bin:$PATH"
+
+# volta stuff
+export PATH="$HOME/.volta/bin:$PATH"
+PATH="$HOME/.volta/bin:$PATH"
